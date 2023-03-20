@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #fff
+    }
+
+.container{
+    background: #f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+.content{
+    width: 980px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    margin: 112px 0 16px;
+}
+.logo> img {
+    
+    height: 106px;
+    margin: -30px;
+}
+h2{font-size: 28px;
+    font-weight: 500;
+    color: #333;;
+}
+.left-content{
+    width: 580px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+.card{
+    background: #fff;
+    width: 396px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.inputcont> input{
+    width: 100%;
+    padding: 14px 16px ;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0px;
+    font-size: 17px;
+}
+.inputcont> input:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff
+}
+.loginbtn{
+    background: #1877f2;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+.Forgotten>a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #1877f2;
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Forgotten{
+text-align: center;
+}
+.Forgotten>a:hover{
+    text-decoration: underline;
+}
+.divide {
+    align-items: center;
+    border-bottom: 1px solid #d2d2d2;
+
+
+    text-align: center;
+}
+
+.createbtn{
+    display: inline-block;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 7px;
+}
+.crtpage{
+    text-align: center;
+    margin:12px 0 10px;
+}
+.crtpage>a:hover{
+    text-decoration: underline;
+}
+.crtpage>a{
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #333;
+}
+
+.l1>li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+.l1>li>a{
+    text-decoration: none;
+    color: #7a7979;
+    
+}
+.l1>li>a:hover{
+    text-decoration: underline;
+}
+
+.end{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    text-decoration: none;
+    color: #7a7979;
+    margin: 10px 10px;
+}
